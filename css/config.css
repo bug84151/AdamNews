@@ -1,0 +1,14 @@
+@font-face {
+  font-family: Bold;
+  src: local("Inter-Bold"), url(assets/fonts/static/Inter-Bold.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: Regular;
+  src: local("Inter-Regular"), url(assets/fonts/static/Inter-Regular) format("ttf");
+}
+
+@font-face {
+  font-family: Extra-Bold;
+  src: local("Inter-VariableFont"), url(assets/fonts/static/Inter-VariableFont.ttf) format("ttf");
+}

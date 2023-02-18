@@ -1,0 +1,38 @@
+$Soft-orange: hsl(35, 77%, 62%);
+$Soft-red: hsl(5, 85%, 63%);
+$dark-blue: hsl(240, 100%, 5%);
+$Off-white: hsl(36, 100%, 99%);
+$Grayish-blue: hsl(233, 8%, 79%);
+$Dark-grayish-blue: hsl(236, 13%, 42%);
+$Very-dark-blue: hsl(240, 100%, 5%);
+
+@mixin headings {
+  font-family: Bold;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+@mixin sub_text {
+  font-family: Bold;
+  font-size: 15px;
+  color: $Dark-grayish-blue;
+  line-height: 1.5;
+}
+@font-face {
+  font-family: Bold;
+  src: local("Inter-Bold"),
+    url(assets/fonts/static/Inter-Bold.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: Regular;
+  src: local("Inter-Regular"),
+    url(assets/fonts/static/Inter-Regular) format("ttf");
+}
+
+@font-face {
+  font-family: Extra-Bold;
+  src: local("Inter-VariableFont"),
+    url(assets/fonts/static/Inter-VariableFont.ttf) format("ttf");
+}
