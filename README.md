@@ -1,0 +1,2 @@
+# AdamNews
+news site
