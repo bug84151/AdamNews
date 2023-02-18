@@ -288,7 +288,7 @@
     display: block;
   }
   .container .news_headlines .main_headline .main_headline_img {
-    background-image: url("/assets/images/image-web-3-mobile.jpg");
+    background-image: url("../assets/images/image-web-3-mobile.jpg");
     background-size: cover;
   }
   .container .news_headlines .main_headline .main_headline_text {
